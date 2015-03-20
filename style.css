@@ -1,0 +1,196 @@
+/*change color of outler border*/
+body
+{
+background-color:white;
+font-family: Verdana, Tahoma, Arial, sans-serif;
+font-size:18px;
+overflow:auto;
+}
+.clearfix{
+clear:both;
+
+}
+
+img#mainbanner{
+width:25%;
+height:25%;
+padding:5% 8%;
+display: block;
+margin: auto;
+margin-right: auto;
+}
+.banner img{
+width:100%;
+height:100%;
+border-bottom:1px solid #878E63;
+}
+
+
+.TitleContainer{
+width:70%;
+margin:2%;
+text-align:center;
+font-size: 70%;
+padding-left: 5cm;
+/*border:5px solid #878E63;*/
+}
+
+.hpp{
+width: 800px;
+margin-left: auto ;
+margin-right: auto ;
+position:relative;
+
+}
+p#abio{
+width:65%;
+font-family:italic;
+}
+nav ul{
+list-style:none;
+margin:0;
+padding-left:50px;
+}
+
+nav ul li{
+float:left;
+border:1px solid #878E63;
+width:15%;
+}
+.mainImage {
+    background: url("images/eyesofeve.png") center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.slider {
+    margin: 0 auto; /* This is what centers it */
+    max-width: 1200px;
+    width: 96%;
+ }
+/*Change color of text in menu and backgrounds*/
+nav ul li a{
+background:rgba(138, 132, 255, 0.6);
+display:block;
+padding:5% 12%;
+font-weight:bold;
+font-size:18px;
+color:black;
+text-decoration:none;
+text-align:center;
+}
+
+nav ul li a:hover,nav ul li.active a{
+background-color:rgba(0, 65, 125, 0.9);
+color:#F1F0D1;
+}
+/*Wrapper Changes details of inside form where the logo lie*/
+#wrapper
+{
+margin:0 auto;
+max-width:1200px;
+width:98%;
+background:rgba(79, 120, 151, 0.9);
+border:1px solid #878E63;
+border-radius:2px;
+box-shadow:0 0 10px; 0px rgba(12,3,25,0.8)
+}
+/*Callout changes details of the head banner where the number lies*/
+#callout
+{
+width:100%;
+height:auto;
+background:rgba(0, 65, 125, 0.9);
+overflow:hidden;
+}
+/*Change color of footer section*/
+footer{
+background:rgba(0, 65, 125, 0.9);
+width:100%;
+overflow:hidden;
+}
+footer p,footer h3{
+color:#F1F0D1;
+text-decoration: none;
+}
+
+footer p a{
+color:#F1F0D1;
+text-decoration:none;
+}
+
+.section{
+width:28%;
+max-height: 50%;
+float:left;
+margin:2%;
+text-align:center;
+font-size: 70%;
+font-family: Proxima Nova;
+/*border:5px solid #878E63;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;*/
+}
+/*Centered Images under and resized so that they are all same.*/
+.section img{
+position: relative;
+    width:  300px;
+    height: 200px;
+    background-positioan: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.sectionfooter{
+width:28%;
+max-height:50%;
+float:left;
+margin:2%;
+text-align:center;
+font-size: 70%;
+font-family: Proxima Nova;
+/*border:5px solid #878E63;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;*/
+}
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+li{
+display:inline;
+}
+/*ul li img{
+height:50px;
+}*/
+/*This is where the media start*/
+@media screen and (max-width:478px){
+	body{
+	font-size:13px;
+	}
+}
+@media screen and (max-width:740px){
+	nav{
+	width:100%;
+	margin-bottom:10px;
+}
+
+nav ul{
+list-style:none;
+margin:0 auto;
+padding-left:0;
+}
+
+nav ul li{
+text-align:center;
+margin-left:0 auto;
+width:100%;
+border-top:1px solid #878E63;
+border-right:0px solid #878E63;
+border-bottom:1px solid #878E63;
+border-left:0px solid #878E63;
+}
+nav ul li a{
+padding:8px 0;
+font-size:16px;
+}
